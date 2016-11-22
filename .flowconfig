@@ -1,0 +1,24 @@
+[ignore]
+dist/
+bin/
+tests/
+.*/node_modules/babel-plugin-flow-react-proptypes/src/__test__/**/*.*
+.*/node_modules/fbjs/.*
+.*/node_modules/config-chain/test/broken.json
+.*/node_modules/npmconf/test/.*
+.*/node_modules/babel-plugin-flow-react-proptypes/src/__test__/.*
+.*/node_modules/babel-plugin-flow-react-proptypes/src/__test__/fixtures/.*
+.*/node_modules/flow-coverage-report/**/.*
+
+[include]
+src/
+
+[libs]
+flow-typed/
+src/types/decls/
+src/types/libs/
+
+[options]
+module.name_mapper='^.*\.pcss$' -> '<PROJECT_ROOT>/src/types/interfaces/CSSModule.js.flow'
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+esproposal.decorators=ignore

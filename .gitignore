@@ -1,0 +1,15 @@
+.DS_STORE
+node_modules
+*~
+static
+.module-cache
+*.log*
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+.nyc_output/
+yarn-error.log
+yarn.lock
+coverage

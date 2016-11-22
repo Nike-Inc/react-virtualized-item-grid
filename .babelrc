@@ -1,0 +1,38 @@
+{
+  "sourceMaps": true,
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0",
+  ],
+  "plugins": [
+    "transform-flow-comments",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-object-assign",
+    "add-module-exports"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "flow-react-proptypes",
+        "transform-react-jsx-self",
+        "transform-react-jsx-source"
+      ],
+      "sourceMaps": "inline"
+    },
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types"
+      ]
+    },
+    "test": {
+      "plugins": [
+        "istanbul",
+        "flow-react-proptypes",
+        "transform-react-jsx-self",
+        "transform-react-jsx-source"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+html,
+body,
+#demo,
+.root {
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.root {
+  display: table;
+}
+
+.header,
+.controls {
+  display: flex;
+}
+
+.controls {
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.title {
+  flex: 1;
+}
+
+.vig {
+  display: table-row;
+  height: 100%;
+}
+
+.colorSquare {
+  height: 50px;
+  width: 100%;
+}
+
+.cardWithShadow {
+  padding: 10px;
+}
+
+.cardWithShadow-inner {
+  background: #70ddff;
+  height: 2em;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 400%;
+}
+
+.nav {
+  font-size: 200%;
+}
+.nav a {
+  margin-left: .5em;
+  margin-right: .5em;
+  text-decoration: none;
+  color: blue;
+}
