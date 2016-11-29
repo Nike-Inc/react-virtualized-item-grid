@@ -5,8 +5,8 @@
   "main": "./dist/react-virtualized-item-grid.js",
   "entry": "./src/index.js",
   "scripts": {
-    "test": "NODE_ENV=test ava",
-    "build": "NODE_ENV=production rimraf dist && NODE_ENV=production webpack",
+    "test": "NODE_ENV=test ava && flow check",
+    "build": "rimraf dist && NODE_ENV=production webpack",
     "coverage": "NODE_ENV=test nyc npm test",
     "build:demo": "NODE_ENV=production webpack --config demo/webpack.config.js && ./demo/gh-pages-import.py"
   },
