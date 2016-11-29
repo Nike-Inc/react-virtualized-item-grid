@@ -20,7 +20,7 @@
     "grid"
   ],
   "author": "Nike Showroom Digital Enablement",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "react": "^15.4.0",
     "react-addons-shallow-compare": "^15.4.0",
