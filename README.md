@@ -1,4 +1,6 @@
-## React VirtualizedItemGrid
+# React VirtualizedItemGrid
+
+[![Build Status](https://travis-ci.org/Nike-Inc/react-virtualized-item-grid.svg?branch=master)](https://travis-ci.org/Nike-Inc/react-virtualized-item-grid)
 
 VirtualizedItemGrid is a React component for efficiently rendering a large, scrollable list of items in a series of wrapping rows.
 
@@ -6,17 +8,17 @@ It does this by leveraging `react-virtualized` to render a virtualized grid of a
 
 One could render 1,000,000 items using VirtualizedItemGrid, but only the ones visibly on-screen will be rendered, leading to increased performance.
 
-### Demo
+## Demo
 
 http://engineering.nike.com/react-virtualized-item-grid/
 
-### Installation
+## Installation
 
 ```
 npm install https://github.com/Nike-Inc/react-virtualized-item-grid
 ```
 
-### Usage
+## Usage
 
 Functional stateless component:
 
@@ -94,9 +96,9 @@ class MyList extends React.Component {
 }
 ```
 
-### Props
+## Props
 
-#### `className`
+### `className`
 
 If `className` is provided, it will be attached to the outermost Grid `div`.
 
@@ -111,7 +113,7 @@ function MyList({ items }) {
 }
 ```
 
-#### `idealItemWidth`
+### `idealItemWidth`
 
 `idealItemWidth` is required and must be either a number or a function which returns a number.
 
@@ -136,15 +138,15 @@ function MyList({ items }) {
 }
 ```
 
-#### `dynamicRowHeight`
+### `dynamicRowHeight`
 
 If `dynamicRowHeight` is `true`, which by default it is not, each row will calculate its own height independently. This can lead to performance implications and jagged scrolling for large lists, but if each item has distinct heights, it may be neessary.
 
-#### `items`
+### `items`
 
 `items` must be an array and should not contain `undefined`. Any other value is acceptable, including duplicates, and will be passed along with `renderItem`.
 
-#### `renderItem`
+### `renderItem`
 
 `renderItem` can be a function which returns a React element or a component which renders a React element.
 
@@ -184,7 +186,7 @@ function MyList({ items }) {
 }
 ```
 
-#### `overscanRowCount`
+### `overscanRowCount`
 
 `overscanRowCount` represents the number of rows above and below what is visible on the screen that should be rendered.
 
@@ -203,7 +205,7 @@ function MyList({ items }) {
 }
 ```
 
-#### `header`
+### `header`
 
 If `header` is provided, a virtual row is placed at the top of the grid which does not affect the items aside from moving them down to make room for the header.
 
@@ -235,7 +237,7 @@ function MyList({ items }) {
 }
 ```
 
-#### `footer`
+### `footer`
 
 If `footer` is provided, a virtual row is placed at the bottom of the grid which does not affect the items.
 
@@ -267,7 +269,7 @@ function MyList({ items }) {
 }
 ```
 
-#### `renderCellWrapper`
+### `renderCellWrapper`
 It is not recommended to override `renderCellWrapper`, but is possible.
 
 `renderCellWrapper` defines the layout placement of each item, header, and footer.
@@ -297,7 +299,7 @@ function MyList({ items }) {
 }
 ```
 
-### TODO
+## TODO
 
 * Publish to npm
 * Continuous integration
