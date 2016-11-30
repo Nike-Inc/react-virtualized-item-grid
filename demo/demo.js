@@ -14439,12 +14439,12 @@ var Demo = function (_PureComponent) {
             { className: 'nav' },
             _react2.default.createElement(
               'a',
-              { href: 'https://git.nike.net/Showroom/react-virtualized-item-grid/blob/master/README.md' },
+              { href: 'https://github.com/Nike-Inc/react-virtualized-item-grid/blob/master/README.md' },
               'Docs'
             ),
             _react2.default.createElement(
               'a',
-              { href: 'https://git.nike.net/Showroom/react-virtualized-item-grid' },
+              { href: 'https://github.com/Nike-Inc/react-virtualized-item-grid' },
               'Git'
             )
           )

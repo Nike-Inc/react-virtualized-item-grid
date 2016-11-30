@@ -8,12 +8,12 @@ One could render 1,000,000 items using VirtualizedItemGrid, but only the ones vi
 
 ### Demo
 
-https://pages.git.nike.net/Showroom/react-virtualized-item-grid
+http://engineering.nike.com/react-virtualized-item-grid/
 
 ### Installation
 
 ```
-npm install https://git.nike.net/Showroom/react-virtualized-item-grid
+npm install https://github.com/Nike-Inc/react-virtualized-item-grid
 ```
 
 ### Usage
@@ -296,3 +296,8 @@ function MyList({ items }) {
   />);
 }
 ```
+
+### TODO
+
+* Publish to npm
+* Continuous integration

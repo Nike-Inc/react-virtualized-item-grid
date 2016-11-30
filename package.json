@@ -8,12 +8,13 @@
     "test": "NODE_ENV=test ava && flow check",
     "build": "rimraf dist && NODE_ENV=production webpack",
     "coverage": "NODE_ENV=test nyc npm test",
-    "build:demo": "NODE_ENV=production webpack --config demo/webpack.config.js && ./demo/gh-pages-import.py"
+    "build:demo": "NODE_ENV=production webpack --config demo/webpack.config.js && demo/gh-pages-import.py demo"
   },
   "repository": {
-    "url": "https://git.nike.net/Showroom/react-virtualized-item-grid",
+    "url": "https://github.com/Nike-Inc/react-virtualized-item-grid",
     "type": "git"
   },
+  "homepage": "http://engineering.nike.com/react-virtualized-item-grid/",
   "keywords": [
     "react",
     "virtualized",

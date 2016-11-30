@@ -133,8 +133,8 @@ class Demo extends PureComponent {
         <header className="header">
           <h1 className="title">React VirtualizedItemGrid</h1>
           <nav className="nav">
-            <a href="https://git.nike.net/Showroom/react-virtualized-item-grid/blob/master/README.md">Docs</a>
-            <a href="https://git.nike.net/Showroom/react-virtualized-item-grid">Git</a>
+            <a href="https://github.com/Nike-Inc/react-virtualized-item-grid/blob/master/README.md">Docs</a>
+            <a href="https://github.com/Nike-Inc/react-virtualized-item-grid">Git</a>
           </nav>
         </header>
         <section className="controls">
