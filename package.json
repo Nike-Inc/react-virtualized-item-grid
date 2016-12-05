@@ -25,6 +25,10 @@
     "name": "Cameron Knight",
     "email": "Cameron.Knight@nike.com"
   }],
+  "maintainers": [{
+    "name": "Cameron Knight",
+    "email": "Cameron.Knight@nike.com"
+  }],
   "license": "MIT",
   "dependencies": {
     "react": "^15.4.0",
