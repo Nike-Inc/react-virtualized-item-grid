@@ -1,6 +1,6 @@
 # React VirtualizedItemGrid
 
-[![Build Status](https://travis-ci.org/Nike-Inc/react-virtualized-item-grid.svg?branch=master)](https://travis-ci.org/Nike-Inc/react-virtualized-item-grid)
+[![Build Status](https://api.travis-ci.com/Nike-Inc/react-virtualized-item-grid.svg?token=3igpLkgvhcpaMroxAyKd&branch=master)](https://travis-ci.com/Nike-Inc/react-virtualized-item-grid)
 
 VirtualizedItemGrid is a React component for efficiently rendering a large, scrollable list of items in a series of wrapping rows.
 
