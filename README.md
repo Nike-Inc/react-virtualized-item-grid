@@ -15,7 +15,7 @@ http://engineering.nike.com/react-virtualized-item-grid/
 ## Installation
 
 ```
-npm install https://github.com/Nike-Inc/react-virtualized-item-grid
+npm install react-virtualized-item-grid
 ```
 
 ## Usage
@@ -298,8 +298,3 @@ function MyList({ items }) {
   />);
 }
 ```
-
-## TODO
-
-* Publish to npm
-* Continuous integration
