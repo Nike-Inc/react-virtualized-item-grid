@@ -107,6 +107,5 @@
       "**/*.spec.js",
       "node_modules/**/*.js"
     ]
-  },
-  "private": true
+  }
 }
